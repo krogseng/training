@@ -1,0 +1,26 @@
+{
+  "name": "training",
+  "version": "1.0.0",
+  "description": "This is a training respository",
+  "main": "index.js",
+  "scripts": {
+    "lint": "estlint .",
+    "pretest": "npm run lint",
+    "test": "mocha",
+    "start": "node server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krogseng/training.git"
+  },
+  "author": "Lynn Krogseng (www.github.com/krogseng/training)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/krogseng/training/issues"
+  },
+  "homepage": "https://github.com/krogseng/training#readme",
+  "devDependencies": {
+    "eslint": "^3.15.0",
+    "mocha": "^3.2.0"
+  }
+}
